@@ -25,7 +25,7 @@ class LoginScreen extends StatelessWidget {
               children: [
                 SizedBox(height: 30),
                 Text(
-                  "Login and start transfering",
+                  "Login and start Invest",
                   style: Theme.of(context)
                       .textTheme
                       .headline2!
