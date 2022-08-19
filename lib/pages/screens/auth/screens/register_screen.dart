@@ -25,7 +25,7 @@ class RegisterScreen extends StatelessWidget {
             children: [
               SizedBox(height: 30),
               Text(
-                "Signup and start transfering",
+                "Signup and start Invest",
                 style: Theme.of(context)
                     .textTheme
                     .headline2!
