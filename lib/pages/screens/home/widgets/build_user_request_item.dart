@@ -1,9 +1,9 @@
-import 'package:e_wallet_mobile_app/pages/widgets/custom_elevated_button.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/user_image.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_elevated_button.dart';
+import 'package:invest_mobile_app/pages/widgets/user_image.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
-import 'package:e_wallet_mobile_app/models/user_model.dart';
-import 'package:e_wallet_mobile_app/models/history_model.dart';
+import 'package:invest_mobile_app/models/user_model.dart';
+import 'package:invest_mobile_app/models/history_model.dart';
 
 class BuildUserRequestItem extends StatelessWidget {
   final HistoryModel history;

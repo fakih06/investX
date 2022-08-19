@@ -1,14 +1,14 @@
-import 'package:e_wallet_mobile_app/pages/screens/home/screens/requests_screen.dart';
+import 'package:invest_mobile_app/pages/screens/home/screens/requests_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:e_wallet_mobile_app/models/user_model.dart';
+import 'package:invest_mobile_app/models/user_model.dart';
 
-import 'package:e_wallet_mobile_app/models/history_model.dart';
-import 'package:e_wallet_mobile_app/pages/screens/home/widgets/build_home_user_item.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/user_image.dart';
-import 'package:e_wallet_mobile_app/styles/Iconly-Broken_icons.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
-import 'package:e_wallet_mobile_app/styles/size_config.dart';
+import 'package:invest_mobile_app/models/history_model.dart';
+import 'package:invest_mobile_app/pages/screens/home/widgets/build_home_user_item.dart';
+import 'package:invest_mobile_app/pages/widgets/user_image.dart';
+import 'package:invest_mobile_app/styles/Iconly-Broken_icons.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/size_config.dart';
 import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {

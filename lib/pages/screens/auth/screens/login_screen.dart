@@ -1,10 +1,10 @@
-import 'package:e_wallet_mobile_app/pages/screens/auth/screens/forget_password_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/auth/screens/register_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/e-wallet_layout/e-wallet_layout_screen.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/custom_elevated_button.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/custom_textField.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
-import 'package:e_wallet_mobile_app/styles/size_config.dart';
+import 'package:invest_mobile_app/pages/screens/auth/screens/forget_password_screen.dart';
+import 'package:invest_mobile_app/pages/screens/auth/screens/register_screen.dart';
+import 'package:invest_mobile_app/pages/screens/e-wallet_layout/e-wallet_layout_screen.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_elevated_button.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_textField.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -62,7 +62,7 @@ class LoginScreen extends StatelessWidget {
                   child: CustomElevatedButton(
                     label: "Login",
                     color: HexColor("#92A3FD"),
-                    onPressed: () => Get.off(() => E_WalletLayoutScreen()),
+                    onPressed: () => Get.off(() => investLayoutScreen()),
                   ),
                 ),
                 SizedBox(height: 7),

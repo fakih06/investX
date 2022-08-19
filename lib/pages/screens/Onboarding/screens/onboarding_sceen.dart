@@ -1,8 +1,8 @@
-import 'package:e_wallet_mobile_app/models/onboarding_model.dart';
-import 'package:e_wallet_mobile_app/pages/screens/Onboarding/widgets/build_dot_indicator.dart';
-import 'package:e_wallet_mobile_app/pages/screens/auth/screens/main_auth_screen.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/custom_elevated_button.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/models/onboarding_model.dart';
+import 'package:invest_mobile_app/pages/screens/Onboarding/widgets/build_dot_indicator.dart';
+import 'package:invest_mobile_app/pages/screens/auth/screens/main_auth_screen.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_elevated_button.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:get/get.dart';

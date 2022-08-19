@@ -1,5 +1,5 @@
-import 'package:e_wallet_mobile_app/pages/screens/Onboarding/screens/onboarding_sceen.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/pages/screens/Onboarding/screens/onboarding_sceen.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';

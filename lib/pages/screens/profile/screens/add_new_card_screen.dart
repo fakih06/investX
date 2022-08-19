@@ -1,6 +1,6 @@
-import 'package:e_wallet_mobile_app/pages/widgets/custom_button_navigation_bar.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/custom_textField.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_button_navigation_bar.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_textField.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';

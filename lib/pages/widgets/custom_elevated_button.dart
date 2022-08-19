@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String label;

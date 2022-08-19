@@ -1,8 +1,8 @@
-import 'package:e_wallet_mobile_app/pages/screens/budget/screens/budget_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/profile/screens/profile_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/home/screens/home_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/transactions/screens/transactions_screen.dart';
-import 'package:e_wallet_mobile_app/styles/Iconly-Broken_icons.dart';
+import 'package:invest_mobile_app/pages/screens/budget/screens/budget_screen.dart';
+import 'package:invest_mobile_app/pages/screens/profile/screens/profile_screen.dart';
+import 'package:invest_mobile_app/pages/screens/home/screens/home_screen.dart';
+import 'package:invest_mobile_app/pages/screens/transactions/screens/transactions_screen.dart';
+import 'package:invest_mobile_app/styles/Iconly-Broken_icons.dart';
 import 'package:flutter/material.dart';
 
 class _BoardingItem {
@@ -17,7 +17,7 @@ class _BoardingItem {
   });
 }
 
-class E_WalletLayoutController {
+class investLayoutController {
   static int currentIndex = 0;
   static List<_BoardingItem> item = [
     _BoardingItem(

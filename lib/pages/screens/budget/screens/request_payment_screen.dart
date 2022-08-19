@@ -1,14 +1,14 @@
-import 'package:e_wallet_mobile_app/pages/screens/budget/widgets/custom_alert_sucess_payment.dart';
-import 'package:e_wallet_mobile_app/pages/screens/budget/widgets/payment_amount_textField.dart';
-import 'package:e_wallet_mobile_app/pages/screens/budget/widgets/payment_note_textField.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/custom_button_navigation_bar.dart';
-import 'package:e_wallet_mobile_app/pages/widgets/user_image.dart';
+import 'package:invest_mobile_app/pages/screens/budget/widgets/custom_alert_sucess_payment.dart';
+import 'package:invest_mobile_app/pages/screens/budget/widgets/payment_amount_textField.dart';
+import 'package:invest_mobile_app/pages/screens/budget/widgets/payment_note_textField.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_button_navigation_bar.dart';
+import 'package:invest_mobile_app/pages/widgets/user_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:e_wallet_mobile_app/models/user_model.dart';
-import 'package:e_wallet_mobile_app/models/history_model.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/models/user_model.dart';
+import 'package:invest_mobile_app/models/history_model.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 
 class RequestPaymentScreen extends StatelessWidget {
   final BudgetModel user;

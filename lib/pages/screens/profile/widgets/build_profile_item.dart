@@ -1,4 +1,4 @@
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 
 class BuildProfileItem extends StatelessWidget {

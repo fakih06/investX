@@ -1,9 +1,9 @@
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-import 'package:e_wallet_mobile_app/styles/size_config.dart';
+import 'package:invest_mobile_app/styles/size_config.dart';
 
 class CustomAlertSuccessPayment extends StatelessWidget {
   final String message;

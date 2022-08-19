@@ -1,4 +1,4 @@
-package com.example.e_wallet_mobile_app
+package com.example.invest_mobile_app
 
 import io.flutter.embedding.android.FlutterActivity
 

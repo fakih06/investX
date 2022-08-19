@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 
 class CustomTextField extends StatelessWidget {
   final String title;
@@ -26,7 +26,8 @@ class CustomTextField extends StatelessWidget {
         TextFormField(
           decoration: InputDecoration(
             hintText: hint,
-            hintStyle: Theme.of(context).textTheme.headline3!.copyWith(fontSize: 14),
+            hintStyle:
+                Theme.of(context).textTheme.headline3!.copyWith(fontSize: 14),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8.0),
               borderSide: BorderSide(

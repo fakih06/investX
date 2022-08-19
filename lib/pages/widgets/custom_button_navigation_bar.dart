@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:e_wallet_mobile_app/pages/widgets/custom_elevated_button.dart';
+import 'package:invest_mobile_app/pages/widgets/custom_elevated_button.dart';
 
 class CustomButtonNavigationBar extends StatelessWidget {
   final Color color;

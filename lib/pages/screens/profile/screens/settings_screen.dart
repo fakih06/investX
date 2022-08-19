@@ -1,5 +1,5 @@
-import 'package:e_wallet_mobile_app/pages/screens/profile/widgets/build_setting_item.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/pages/screens/profile/widgets/build_setting_item.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -28,7 +28,10 @@ class SettingScreen extends StatelessWidget {
             children: [
               Text(
                 "General",
-                style: Theme.of(context).textTheme.headline4!.copyWith(fontSize: 15),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4!
+                    .copyWith(fontSize: 15),
               ),
               SizedBox(height: 20),
               BuildSettingItem(
@@ -47,7 +50,10 @@ class SettingScreen extends StatelessWidget {
               SizedBox(height: 30),
               Text(
                 "Notifications",
-                style: Theme.of(context).textTheme.headline4!.copyWith(fontSize: 15),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4!
+                    .copyWith(fontSize: 15),
               ),
               SizedBox(height: 20),
               BuildSettingItem(
@@ -66,7 +72,10 @@ class SettingScreen extends StatelessWidget {
               SizedBox(height: 30),
               Text(
                 "More",
-                style: Theme.of(context).textTheme.headline4!.copyWith(fontSize: 15),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4!
+                    .copyWith(fontSize: 15),
               ),
               SizedBox(height: 20),
               BuildSettingItem(

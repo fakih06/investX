@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:e_wallet_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
 
 class PaymentNoteTextField extends StatelessWidget {
   final TextEditingController textEditingController;

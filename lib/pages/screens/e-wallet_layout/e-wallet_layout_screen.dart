@@ -1,23 +1,24 @@
-import 'package:e_wallet_mobile_app/controllers/e-wallet_layout_controller.dart';
-import 'package:e_wallet_mobile_app/styles/constant.dart';
-import 'package:e_wallet_mobile_app/styles/size_config.dart';
+import 'package:invest_mobile_app/controllers/e-wallet_layout_controller.dart';
+import 'package:invest_mobile_app/styles/constant.dart';
+import 'package:invest_mobile_app/styles/size_config.dart';
 import 'package:flutter/material.dart';
 
-class E_WalletLayoutScreen extends StatefulWidget {
-  const E_WalletLayoutScreen({Key? key}) : super(key: key);
+class investLayoutScreen extends StatefulWidget {
+  const investLayoutScreen({Key? key}) : super(key: key);
 
   @override
-  State<E_WalletLayoutScreen> createState() => _HomeScreenState();
+  State<investLayoutScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<E_WalletLayoutScreen> {
+class _HomeScreenState extends State<investLayoutScreen> {
   @override
   Widget build(BuildContext context) {
     SizeConfig.init(context);
 
     return SafeArea(
       child: Scaffold(
-        body: E_WalletLayoutController.item[E_WalletLayoutController.currentIndex].screen,
+        body: investLayoutController
+            .item[investLayoutController.currentIndex].screen,
         bottomNavigationBar: Container(
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
@@ -42,13 +43,13 @@ class _HomeScreenState extends State<E_WalletLayoutScreen> {
               borderRadius: BorderRadius.circular(20),
             ),
             child: BottomNavigationBar(
-              currentIndex: E_WalletLayoutController.currentIndex,
+              currentIndex: investLayoutController.currentIndex,
               onTap: (int index) {
                 setState(() {
-                  E_WalletLayoutController.currentIndex = index;
+                  investLayoutController.currentIndex = index;
                 });
               },
-              items: E_WalletLayoutController.item
+              items: investLayoutController.item
                   .map(
                     (e) => BottomNavigationBarItem(
                       icon: e.icon,

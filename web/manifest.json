@@ -1,6 +1,6 @@
 {
-    "name": "e_wallet_mobile_app",
-    "short_name": "e_wallet_mobile_app",
+    "name": "invest_mobile_app",
+    "short_name": "invest_mobile_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
