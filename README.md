@@ -15,4 +15,4 @@
 
 <img width="307" alt="Screen Shot 2022-08-19 at 13 42 43" src="https://user-images.githubusercontent.com/58264400/185551079-406c906b-1aba-4737-a682-cb8d554621ad.png">
 
-<img width="308" alt="Screen Shot 2022-08-19 at 13 42 57" src="https://user-images.githubusercontent.com/58264400/185551107-ad0b1253-053f-474a-8051-3da8627f4174.png">
+<img width="307" alt="Screen Shot 2022-08-19 at 14 20 42" src="https://user-images.githubusercontent.com/58264400/185555819-d00c83f2-a5c3-4cac-9d87-ef9e38b7b030.png">
