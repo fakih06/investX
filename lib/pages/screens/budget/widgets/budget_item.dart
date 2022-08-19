@@ -1,5 +1,4 @@
 import 'package:invest_mobile_app/pages/screens/budget/screens/request_payment_screen.dart';
-import 'package:invest_mobile_app/pages/screens/budget/screens/send_payment_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:invest_mobile_app/models/user_model.dart';
