@@ -1,4 +1,4 @@
-import 'package:e_wallet_mobile_app/pages/screens/contacts/screens/contacts_screen.dart';
+import 'package:e_wallet_mobile_app/pages/screens/budget/screens/budget_screen.dart';
 import 'package:e_wallet_mobile_app/pages/screens/profile/screens/profile_screen.dart';
 import 'package:e_wallet_mobile_app/pages/screens/home/screens/home_screen.dart';
 import 'package:e_wallet_mobile_app/pages/screens/transactions/screens/transactions_screen.dart';

@@ -6,10 +6,10 @@ import 'package:e_wallet_mobile_app/models/user_model.dart';
 import 'package:e_wallet_mobile_app/models/history_model.dart';
 
 class BuildUserRequestItem extends StatelessWidget {
-  final UserModel user;
+  final HistoryModel history;
   const BuildUserRequestItem({
     Key? key,
-    required this.user,
+    required this.history,
   }) : super(key: key);
 
   @override
@@ -28,7 +28,7 @@ class BuildUserRequestItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "${user.name}",
+                "${history.name}",
                 style: Theme.of(context)
                     .textTheme
                     .headline2!
@@ -37,7 +37,7 @@ class BuildUserRequestItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               Text(
-                "${user.amount}",
+                "${history.amount}",
                 style: Theme.of(context).textTheme.headline3,
               ),
             ],

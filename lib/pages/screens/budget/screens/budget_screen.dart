@@ -4,7 +4,7 @@ import 'package:e_wallet_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-import '../widgets/contact_item.dart';
+import '../widgets/budget_item.dart';
 
 class ContactsScreen extends StatelessWidget {
   ContactsScreen({Key? key}) : super(key: key);

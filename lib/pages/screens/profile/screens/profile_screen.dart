@@ -75,7 +75,7 @@ class ProfileScreen extends StatelessWidget {
                   BuildProfileItem(
                     context: context,
                     iconPath: "assets/images/card_icon.png",
-                    title: "My Cards",
+                    title: "Rekening",
                     onTap: () => Get.to(() => MyCardsScreen()),
                   ),
                   SizedBox(height: 20),

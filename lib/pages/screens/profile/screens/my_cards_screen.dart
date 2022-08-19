@@ -65,14 +65,14 @@ class MyCardsScreen extends StatelessWidget {
               child: Column(
                 children: [
                   CustomTextField(
-                    title: "Cardholder Name",
-                    hint: "Enter your name as written on card",
+                    title: "Nama",
+                    hint: "Enter your name",
                     textEditingController: _cardNameController,
                   ),
                   SizedBox(height: 20),
                   CustomTextField(
-                    title: "Card Number",
-                    hint: "Enter card number",
+                    title: "Nomor Rekening",
+                    hint: "Insert Rekening Number",
                     textEditingController: _cardNumberController,
                   ),
                   SizedBox(height: 20),
@@ -80,17 +80,9 @@ class MyCardsScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: CustomTextField(
-                          title: "cvv\\cvc",
-                          hint: "123",
+                          title: "Bank",
+                          hint: "BRI/Mandiri/BNI/BCA",
                           textEditingController: _cvvController,
-                        ),
-                      ),
-                      SizedBox(width: 20),
-                      Expanded(
-                        child: CustomTextField(
-                          title: "Exp. Date",
-                          hint: "20\\20",
-                          textEditingController: _expairyDateController,
                         ),
                       ),
                     ],

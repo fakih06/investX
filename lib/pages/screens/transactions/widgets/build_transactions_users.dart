@@ -5,10 +5,10 @@ import 'package:e_wallet_mobile_app/styles/constant.dart';
 import 'package:flutter/material.dart';
 
 class BuildUserTransaction extends StatelessWidget {
-  final UserModel user;
+  final HistoryModel history;
   const BuildUserTransaction({
     Key? key,
-    required this.user,
+    required this.history,
   }) : super(key: key);
 
   @override
@@ -27,7 +27,7 @@ class BuildUserTransaction extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "${user.name}",
+                "${history.name}",
                 style: Theme.of(context)
                     .textTheme
                     .headline2!
@@ -36,14 +36,14 @@ class BuildUserTransaction extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               Text(
-                "${user.dateTime}",
+                "${history.dateTime}",
                 style: Theme.of(context).textTheme.headline3,
               ),
             ],
           ),
         ),
         Text(
-          "${user.amount}",
+          "${history.amount}",
           style: Theme.of(context).textTheme.headline2,
         )
       ],

@@ -27,7 +27,7 @@ final List<HistoryModel> historyList = [
   HistoryModel(
     amount: "-125.000",
     name: "Withdraw",
-    id: 1,
+    id: 0,
     image: k_imagePath,
     isSender: true,
     dateTime: (DateFormat.yMMMMd().format(DateTime.now())),
@@ -37,7 +37,7 @@ final List<HistoryModel> historyList = [
   HistoryModel(
     amount: "350.000",
     name: "Deposit",
-    id: 2,
+    id: 1,
     image: k_imagePath,
     isSender: false,
     dateTime: (DateFormat.yMMMMd().format(DateTime.now())),
@@ -45,7 +45,7 @@ final List<HistoryModel> historyList = [
     totalAmount: "599",
   ),
   HistoryModel(
-    id: 3,
+    id: 2,
     amount: "-50.000",
     name: "Wirhdraw",
     image: k_imagePath,
@@ -55,7 +55,7 @@ final List<HistoryModel> historyList = [
     totalAmount: "312",
   ),
   HistoryModel(
-    id: 4,
+    id: 3,
     amount: "100.500",
     name: "Deposit",
     image: k_imagePath,
@@ -67,7 +67,7 @@ final List<HistoryModel> historyList = [
   HistoryModel(
     amount: "-100.500",
     name: "Withdraw",
-    id: 5,
+    id: 4,
     image: k_imagePath,
     isSender: true,
     dateTime: (DateFormat.yMMMMd().format(DateTime.now())),
@@ -75,7 +75,7 @@ final List<HistoryModel> historyList = [
     totalAmount: "1454",
   ),
   HistoryModel(
-    id: 6,
+    id: 5,
     amount: "222.500",
     name: "Withdraw",
     image: k_imagePath,
@@ -85,3 +85,20 @@ final List<HistoryModel> historyList = [
     totalAmount: "325",
   ),
 ];
+
+final List<HistoryModel> historyTransactions =
+    historyList.where((element) => element.isSender).toList();
+
+final List<HistoryModel> historyRequests =
+    historyList.where((element) => element.isSender).toList();
+
+final HistoryModel mainUser = HistoryModel(
+  amount: "0",
+  dateTime: '',
+  email: 'mainEmail@gmail.com',
+  id: 0,
+  image: k_imagePath,
+  isSender: false,
+  name: 'Ahmad Fakih',
+  totalAmount: "3.000.000",
+);

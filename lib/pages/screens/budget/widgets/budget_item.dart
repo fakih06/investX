@@ -1,5 +1,5 @@
-import 'package:e_wallet_mobile_app/pages/screens/contacts/screens/request_payment_screen.dart';
-import 'package:e_wallet_mobile_app/pages/screens/contacts/screens/send_payment_screen.dart';
+import 'package:e_wallet_mobile_app/pages/screens/budget/screens/request_payment_screen.dart';
+import 'package:e_wallet_mobile_app/pages/screens/budget/screens/send_payment_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:e_wallet_mobile_app/models/user_model.dart';
@@ -10,7 +10,7 @@ import 'package:e_wallet_mobile_app/styles/constant.dart';
 import 'package:get/get.dart';
 
 class BuildContactItem extends StatelessWidget {
-  final UserModel user;
+  final BudgetModel user;
   const BuildContactItem({
     Key? key,
     required this.user,
@@ -36,7 +36,7 @@ class BuildContactItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               Text(
-                "${user.email}",
+                "${user.bunga}",
                 style: Theme.of(context).textTheme.headline3,
               ),
             ],
@@ -44,16 +44,16 @@ class BuildContactItem extends StatelessWidget {
         ),
         Row(
           children: [
-            InkWell(
-              onTap: () => Get.to(() => SendPaymentScreen(user: user)),
-              child: Container(
-                width: 42,
-                height: 42,
-                decoration: BoxDecoration(
-                    color: k_yellow, borderRadius: BorderRadius.circular(10)),
-                child: Image.asset("assets/images/send_icon.png"),
-              ),
-            ),
+            // InkWell(
+            //   onTap: () => Get.to(() => SendPaymentScreen(user: user)),
+            //   child: Container(
+            //     width: 42,
+            //     height: 42,
+            //     decoration: BoxDecoration(
+            //         color: k_yellow, borderRadius: BorderRadius.circular(10)),
+            //     child: Image.asset("assets/images/send_icon.png"),
+            //   ),
+            // ),
             SizedBox(width: 8),
             InkWell(
               onTap: () => Get.to(() => RequestPaymentScreen(user: user)),
@@ -63,7 +63,11 @@ class BuildContactItem extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: HexColor("#92A3FD"),
                     borderRadius: BorderRadius.circular(10)),
-                child: Image.asset("assets/images/request_icon.png"),
+                child: Image.asset(
+                  "assets/images/eye.png",
+                  // width: 10,
+                  // height: 10,
+                ),
               ),
             ),
           ],

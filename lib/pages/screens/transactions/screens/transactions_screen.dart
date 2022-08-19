@@ -46,75 +46,17 @@ class _TransactionsScreenState extends State<TransactionsScreen> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 30),
-              child: Container(
-                height: 60,
-                decoration: BoxDecoration(
-                  color: k_grey,
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        width: double.infinity,
-                        height: double.infinity,
-                        child: ElevatedButton(
-                          child: Text("Incomes",
-                              style: Theme.of(context).textTheme.headline2),
-                          onPressed: () {
-                            setState(() {
-                              _toggleButton = true;
-                            });
-                          },
-                          style: ElevatedButton.styleFrom(
-                            primary: _toggleButton ? k_yellow : k_grey,
-                            elevation: 0.0,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        width: double.infinity,
-                        height: double.infinity,
-                        child: ElevatedButton(
-                          child: Text("Expenses",
-                              style: Theme.of(context).textTheme.headline2),
-                          onPressed: () {
-                            setState(() {
-                              _toggleButton = false;
-                            });
-                          },
-                          style: ElevatedButton.styleFrom(
-                            primary: _toggleButton ? k_grey : k_yellow,
-                            elevation: 0.0,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            Padding(
               padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 15),
               child: ListView.separated(
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
-                itemCount: usersTransactions.length,
+                itemCount: historyTransactions.length,
                 separatorBuilder: (BuildContext context, int index) {
                   return SizedBox(height: 15);
                 },
                 itemBuilder: (BuildContext context, int index) {
                   return BuildUserTransaction(
-                    user: usersTransactions[index],
+                    history: historyTransactions[index],
                   );
                 },
               ),

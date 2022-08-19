@@ -63,12 +63,13 @@ class RequestsScreen extends StatelessWidget {
                 ListView.separated(
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
-                  itemCount: usersRequests.length,
+                  itemCount: historyRequests.length,
                   separatorBuilder: (BuildContext context, int index) {
                     return SizedBox(height: 10);
                   },
                   itemBuilder: (BuildContext context, int index) {
-                    return BuildUserRequestItem(user: usersRequests[index]);
+                    return BuildUserRequestItem(
+                        history: historyRequests[index]);
                   },
                 ),
               ],
