@@ -38,13 +38,13 @@ class RegisterScreen extends StatelessWidget {
                 textEditingController: _emailController,
               ),
               SizedBox(height: 20),
-              CustomTextField(
+              CustomTextFieldPass(
                 title: "Password",
                 hint: "Enter your password",
                 textEditingController: _passwordController,
               ),
               SizedBox(height: 20),
-              CustomTextField(
+              CustomTextFieldPass(
                 title: "Password",
                 hint: "Enter your password again",
                 textEditingController: _reTryPasswordController,

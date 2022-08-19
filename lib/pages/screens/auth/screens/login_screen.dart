@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    CustomTextField(
+                    CustomTextFieldPass(
                       title: "Password",
                       hint: "Enter your password",
                       textEditingController: _passwordController,
